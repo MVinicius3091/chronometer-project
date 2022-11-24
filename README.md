@@ -10,15 +10,15 @@
 
 - Principal
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\cronometro\assets\crono.png)
+![](https://github.com/MVinicius3091/chronometer-project/blob/master/assets/crono.png)
 
 - Botões :play_or_pause_button::stop_button::pause_button:
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\cronometro\assets\buttons-display.png)
+![](https://github.com/MVinicius3091/chronometer-project/blob/master/assets/buttons-display.png)
 
 - Funcionalidade
 
-![](C:\Users\maykon%20vinicius\DIO-PROJECTS\cronometro\assets\cronometro.gif)
+![](https://github.com/MVinicius3091/chronometer-project/blob/master/assets/cronometro.gif)
 
 
 
