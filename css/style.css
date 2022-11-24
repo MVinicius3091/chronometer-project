@@ -1,0 +1,121 @@
+body {
+  font-family: Consolas;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(1, 6, 43);
+}
+
+.container {
+  border: solid;
+  width: 400px;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20vh auto;
+  border-radius: 50%;
+  padding: 50px 0;
+  position: relative;
+  box-shadow: 0 0 60px #ffffff;
+}
+
+.clock {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  border-radius: 50%;
+  background: conic-gradient(#000 10%, #ff0000);
+  z-index: 0;
+  margin: 0 auto;
+}
+
+.box-time {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+  z-index: 1;
+}
+
+.time {
+  padding: 10px 30px;
+  font-size: 1.2rem;
+  background: white;
+  border-radius: 40px;
+  margin: 10px 0;
+}
+
+.btn button {
+  border: solid transparent 1px;
+  font: 1.5rem bold;
+  padding: 0 10px;
+  background-color: #000;
+  color: #000;
+  cursor: pointer;
+  font-family: Consolas;
+  border-radius: 10px;
+}
+
+#start {
+  background-color: #008000;
+}
+
+#stop {
+  background-color: #ff0000;
+}
+
+#restart {
+  background-color: #ffff00;
+}
+
+.btn button:hover {
+  border: solid #ffffff 1px;
+  box-sizing: border-box;
+}
+
+.clock-animate {
+  animation: clock linear 2s infinite;
+}
+
+@keyframes clock {
+  to {
+    background-image: conic-gradient(#000 10%, #0000ff);
+  }
+  from {
+    background: conic-gradient(#000 10%, #ff0000);
+  }
+}
+
+@media screen and (max-width: 400px) {
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    margin: 20vh auto;
+  }
+
+  .clock {
+    width: 100%;
+    height: 100%;
+  }
+
+  .btn {
+    display: flex;
+    width: 250px;
+    justify-content: space-between;
+  }
+
+  .btn button {
+    width: 70px;
+    padding: 0;
+    font-size: 1rem;
+  }
+}
